@@ -8,7 +8,7 @@ const char* password = "YOUR_WIFI_PASSWORD";
 SmartNFC_API api(80);
 
 void setup() {
-    Serial.begin(115200);
+    Serial.begin(9600);
     
     // Connect to Wi-Fi
     WiFi.begin(ssid, password);
