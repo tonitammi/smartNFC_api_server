@@ -45,7 +45,7 @@ Copy `SmartNFC_API.h` and `SmartNFC_API.cpp` directly into your sketch folder or
 SmartNFC_API api(80);
 
 void setup() {
-    Serial.begin(115200);
+    Serial.begin(9600);
     WiFi.begin("YOUR_SSID", "YOUR_PASSWORD");
     while (WiFi.status() != WL_CONNECTED) { delay(500); }
 
